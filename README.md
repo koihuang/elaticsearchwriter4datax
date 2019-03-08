@@ -4,11 +4,11 @@
 
 ##  2.Quick Start
 #### 1. 使用已经打包好的jar包替换Datax原来的插件(推荐)
-![](elasticsearchwriter2x/images/2019-03-08-14-18-32.png)
-![](elasticsearchwriter2x/images/2019-03-08-14-19-22.png)
+![](images/2019-03-08-14-18-32.png)
+![](images/2019-03-08-14-19-22.png)
 
 #### 2.  自己编译源码(不推荐)
-![](elasticsearchwriter2x/images/2019-03-08-14-21-15.png)
+![](images/2019-03-08-14-21-15.png)
 
 注:因为插件依赖Datax的一些核心模块,所以编译源码需要提前maven install Datax的相关模块
 ##  3.参数配置说明
