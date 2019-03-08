@@ -9,6 +9,7 @@
 
 #### 2.  自己编译源码(不推荐)
 ![](images/2019-03-08-14-21-15.png)
+
 注:因为插件依赖Datax的一些核心模块,所以编译源码需要提前maven install Datax的相关模块
 ##  3.参数配置说明
 >跟Datax原本的Elasticsearchwriter插件的参数配置几乎一样.
