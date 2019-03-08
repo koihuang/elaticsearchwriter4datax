@@ -1,8 +1,7 @@
 # ElasticSearchWriter4Datax
 ##  1.快速介绍
-```
-Datax原有的elasticsearchWriter插件对版本支持不太友好,因为项目中用到ElasticSearch2.4版本,在Datax原来的基础上,保持原本的代码逻辑,针对ElasticSearch2.4版本做了二次开发.
-```
+>Datax原有的elasticsearchWriter插件对版本支持不太友好,因为项目中用到ElasticSearch2.4版本,在Datax原来的基础上,保持原本的代码逻辑,针对>ElasticSearch2.4版本做了二次开发.
+
 ##  2.Quick Start
 #### 1. 使用已经打包好的jar包替换Datax原来的插件(推荐)
 ![](images/2019-03-08-14-18-32.png)
@@ -10,12 +9,10 @@ Datax原有的elasticsearchWriter插件对版本支持不太友好,因为项目�
 
 #### 2.  自己编译源码(不推荐)
 ![](images/2019-03-08-14-21-15.png)
-####注:因为插件依赖Datax的一些核心模块,所以编译源码需要提前maven install Datax的相关模块
+注:因为插件依赖Datax的一些核心模块,所以编译源码需要提前maven install Datax的相关模块
 ##  3.参数配置说明
-```
-跟Datax原本的Elasticsearchwriter插件的参数配置几乎一样.
-请参考[Datax ElasticSearchWriter的官方文档](https://github.com/alibaba/DataX/blob/master/elasticsearchwriter/doc/elasticsearchwriter.md)
-```
+>跟Datax原本的Elasticsearchwriter插件的参数配置几乎一样.
+>请参考[Datax ElasticSearchWriter的官方文档](https://github.com/alibaba/DataX/blob/master/elasticsearchwriter/doc/elasticsearchwriter.md)
 ### 对别名的特别说明:
 ```
 1.  es库里不要有跟别名名称一样的索引存在,不然别名的配置会出错
