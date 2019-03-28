@@ -27,6 +27,9 @@
 ```
 1.  准备抽时间开发适配Elasticsearch6.x版本的writer插件
 ```
+##  6.其他
+>有兴趣者可以看我的DataX源码学习
+https://github.com/koihuang/DataX-Learn
 
 
 
